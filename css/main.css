@@ -73,10 +73,15 @@ footer {
 
   #column-3 {
     background-color: #3b8896;
+    width: 100%;  /*fixing tablet layout*/
   }
 
   footer {
     background-color: #c0e8ef;
+  }
+
+  .col-3 {
+    width: 50%; /*fixing laptop layout*/
   }
   
 }
@@ -98,10 +103,14 @@ footer {
 
   #column-3 {
     background-color: #33b282;
+    width: 33.3%; /*fixing desktop layout*/
   }
 
   footer {
     background-color: #8cf5cd;
   }
    
+  .col-3 {
+    width: 33.3%; /*fixing desktop layout*/
+  }
 }
